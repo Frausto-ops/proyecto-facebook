@@ -1,0 +1,89 @@
+:root {
+    color: blueviolet;
+}
+body { 
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+    font-weight: 200;
+    letter-spacing: .05rem;
+}
+
+.display-2 .lead {
+    font-weight: 200;
+}
+
+.bg-grey{
+    background-color: var(--dark-grey-color);
+}
+
+a{
+    color: var(--light-color)
+}
+
+a:hover{
+    color: var(--light-color)
+    opacity: .9;
+    text-decoration: none;
+
+}
+
+.navbar {
+    background-color: transparent !important;
+    position: absolute ;
+    right: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    min-height: 80px;
+}
+
+.nav-link{
+    color: var(--light-color);
+}
+
+.lead{
+    font-size: 1.8rem;
+}
+
+#hero-bg {
+    background-image: url('styles/hero.jpg');
+    background-size: cover;
+    position: relative;
+    height: 700px;
+}
+
+.btn-primary {
+    background-color: var(--dark-color);
+    display: inline-block;
+
+}
+
+.btn-primary:hover {
+    background-color: var(--dark-color);
+    opacity: .9;
+    border: 0;
+    text-decoration: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-content{
+    padding: 1.2rem 1.5rem;
+    display: inline-block;
+}
+
+.content {
+    padding: 0 3rem;
+
+}
+
+.footer-content {
+    position: absolute;
+    width: 100;
+    bottom: 0;
+    padding: 1rem 2rem;
+}
+
+.modal, .modal-content {
+    background-color: var(--dark-color);
+} 
